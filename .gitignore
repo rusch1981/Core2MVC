@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Src/Core2MVCTemplate/bin/Debug/netcoreapp2.0
+/Src/Core2MVCTemplate/obj
+/Src/Core2WebApplication/obj
+/Src/Core2MVCTemplate
