@@ -30,6 +30,7 @@ namespace Core2WebApplication
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseStaticFiles();
 
             //Adds MVC to the IApplicationBuilder request execution pipeline with a default route named 'default' and the following template: '{controller=Home}/{action=Index}/{id?}'.
             app.UseMvcWithDefaultRoute();

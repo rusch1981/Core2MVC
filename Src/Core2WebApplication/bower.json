@@ -1,0 +1,22 @@
+{
+  "name": "Core2WebApplication",
+  "homepage": "https://github.com/rusch1981/Core2MVC",
+  "authors": [
+    "arusch1981@hotmail.com"
+  ],
+  "description": "",
+  "main": "Index.cshtml",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0",
+    "jQuery": "3.3.1"
+  }
+}
