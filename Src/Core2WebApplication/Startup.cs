@@ -21,6 +21,16 @@ namespace Core2WebApplication
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+            }
+
             //Adds MVC to the IApplicationBuilder request execution pipeline with a default route named 'default' and the following template: '{controller=Home}/{action=Index}/{id?}'.
             app.UseMvcWithDefaultRoute();
         }
