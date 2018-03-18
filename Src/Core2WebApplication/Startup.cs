@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Core2WebApplication.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using StructureMap;
 
 namespace Core2WebApplication
 {
@@ -13,9 +11,11 @@ namespace Core2WebApplication
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            return ConfigureIoC(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,6 +34,18 @@ namespace Core2WebApplication
 
             //Adds MVC to the IApplicationBuilder request execution pipeline with a default route named 'default' and the following template: '{controller=Home}/{action=Index}/{id?}'.
             app.UseMvcWithDefaultRoute();
+        }
+        
+        private IServiceProvider ConfigureIoC(IServiceCollection services)
+        {
+            var container = new Container();
+
+            container.Configure(config =>
+            {
+                config.AddRegistry(new Core2MVCRegistry());
+                config.Populate(services);
+            });
+            return container.GetInstance<IServiceProvider>();
         }
     }
 }

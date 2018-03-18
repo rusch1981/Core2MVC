@@ -7,9 +7,11 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 * [Bower](http://weaintplastic.github.io/web-development-field-guide/Development/Frontend_Development/Setting_up_your_project/Setup_Dependency_Managers/Bower/Initialize_Bower_on_a_new_Project.html) client side management
   * additional reading [here](https://docs.microsoft.com/en-us/aspnet/core/client-side/bower)
 * Bootstrap css/js
+* [StructureMap](http://structuremap.github.io/)
+  * additional reading [here](https://tech.io/playgrounds/5099/using-structuremap-with-asp-net-core)
+
 
 ## Future System Stories:
-* Dependency Injection - [StructureMap](http://structuremap.github.io/)
 * [Bundling and Minification](https://docs.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification?tabs=visual-studio%2Caspnetcore2x)
 * [Logging](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?tabs=aspnetcore2x)
 * Migrate old MVC Code 
