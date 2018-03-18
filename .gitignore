@@ -10,3 +10,9 @@
 /Src/Core2WebApplication/bin/Debug/netcoreapp2.0
 /Src/Core2WebApplication/wwwroot/lib
 /Src/Core2WebApplication/wwwroot/css/site.min.css
+/Src/WebApplicationUtilities/bin/Debug/netcoreapp2.0
+/Src/WebApplicationUtilities/obj/Debug/netcoreapp2.0
+/Src/WebApplicationUtilities/obj/Release/netcoreapp2.0
+/Src/WebApplicationUtilities/obj
+/Test/WebApplicationUtilitiesTests/obj
+/Test/WebApplicationUtilitiesTests/bin/Debug/netcoreapp2.0

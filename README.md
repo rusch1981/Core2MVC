@@ -13,6 +13,10 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * additional reading [here](http://rion.io/2016/07/18/bundling-and-minifying-in-asp-net-core-applications/)
 * [Logging](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?tabs=aspnetcore2x)
   * Logging is currently set to debug and console via default setting of the [CreateDefaultBuilder()](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.webhost.createdefaultbuilder?view=aspnetcore-2.0)
+* Migration & Testing
+  * WebApplicationUtilities:
+    * ConfigManager
+
 ## Future System Stories:
 * Migrate old MVC Code 
   * add missing jQueryfiles to bower.json
