@@ -1,4 +1,5 @@
 ﻿using StructureMap;
+using WebApplicationUtilities.Email;
 
 namespace Core2WebApplication.IoC
 {
@@ -10,9 +11,10 @@ namespace Core2WebApplication.IoC
             {
                 scan.TheCallingAssembly();
                 scan.WithDefaultConventions();
-
-                //register more stuffs here
             });
+
+            //register more stuffs here
+            For<IEmail>().Singleton().Use<Email>();
         }
     }
 }

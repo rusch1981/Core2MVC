@@ -16,9 +16,12 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 * Migration & Testing
   * WebApplicationUtilities:
     * ConfigManager
+    * IEmail/Email
 
 ## Future System Stories:
 * Migrate old MVC Code 
+  * Service Project for DAL and Business Logic
+  * Add Exception Filters
   * add missing jQueryfiles to bower.json
   * add all thirdparty files to bundleconfig.json
 * Authentication
