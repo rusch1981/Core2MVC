@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Core2MVCService.Model
+namespace Core2MVCService.ApplicantService
 {
     public interface IProcessApplicants
     {

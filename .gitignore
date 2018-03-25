@@ -17,3 +17,7 @@
 /Test/WebApplicationUtilitiesTests/obj
 /Test/WebApplicationUtilitiesTests/bin/Debug/netcoreapp2.0
 /Src/Core2MVCService/obj
+/Src/Core2MVCService/bin/Debug/netcoreapp2.0/Core2MVCService.dll
+/Src/Core2MVCService/bin/Debug/netcoreapp2.0/Core2MVCService.pdb
+/Src/Core2MVCService/bin/Debug/netcoreapp2.0/WebApplicationUtilities.dll
+/Src/Core2MVCService/bin/Debug/netcoreapp2.0/WebApplicationUtilities.pdb

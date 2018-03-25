@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
-using System.Web;
 using Microsoft.AspNetCore.Http;
 
 namespace Core2MVCService.Model

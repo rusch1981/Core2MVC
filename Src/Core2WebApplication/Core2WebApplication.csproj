@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core2MVCService\Core2MVCService.csproj" />
     <ProjectReference Include="..\WebApplicationUtilities\WebApplicationUtilities.csproj" />
   </ItemGroup>
 

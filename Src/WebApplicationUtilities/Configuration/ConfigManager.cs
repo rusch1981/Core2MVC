@@ -2,7 +2,7 @@
 
 namespace WebApplicationUtilities.Configuration
 {
-    public class ConfigManager
+    public class ConfigManager : IConfigManager
     {
         private readonly IConfiguration _config;
 

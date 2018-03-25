@@ -11,10 +11,14 @@ namespace WebApplicationUtilities.Email
     [ExcludeFromCodeCoverage]
     public class Email : IEmail
     {
-        private readonly EmailConfig _config = new ConfigManager().GetFromSection<EmailConfig>("EmailConfig");
-
+        private readonly EmailConfig _config;
         private MailMessage _mailMsg;
         private SmtpClient _smtpClient;
+
+        public Email(IConfigManager configManager)
+        {
+            _config = configManager.GetFromSection<EmailConfig>("EmailConfig");
+        }
 
         public void SendEmail(string message)
         {

@@ -1,5 +1,7 @@
 ﻿using StructureMap;
 using WebApplicationUtilities.Email;
+using WebApplicationUtilities.Configuration;
+using Core2MVCService.ApplicantService;
 
 namespace Core2WebApplication.IoC
 {
@@ -15,6 +17,9 @@ namespace Core2WebApplication.IoC
 
             //register more stuffs here
             For<IEmail>().Singleton().Use<Email>();
+            For<IConfigManager>().Use<ConfigManager>();
+            For<IProcessApplicants>().Use<ProcessApplicantsDb>();
+            For<ISaveApplicant>().Use<SaveApplicantDb>();
         }
     }
 }
