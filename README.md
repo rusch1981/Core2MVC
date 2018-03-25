@@ -17,10 +17,13 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * [WebApplicationUtilities](Src/WebApplicationUtilities/ApplicationUtilities.md):
     * ConfigManager
     * IEmail/Email
+* Service Project
+  * Business Logic
+    * Implemented IFormFile for FileUploads
 
 ## Future System Stories:
 * Migrate old MVC Code 
-  * Service Project for DAL and Business Logic
+  * Service Project for DAL 
   * Add Exception Filters
   * add missing jQueryfiles to bower.json
   * add all thirdparty files to bundleconfig.json
