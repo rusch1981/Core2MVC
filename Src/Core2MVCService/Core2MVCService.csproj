@@ -5,12 +5,38 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Sql\GetApplicant.sql" />
+    <None Remove="Sql\GetIncompleteApplicantIds.sql" />
+    <None Remove="Sql\SetApplicantToComplete.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sql\GetApplicant.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sql\GetIncompleteApplicantIds.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sql\SetApplicantToComplete.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\WebApplicationUtilities\WebApplicationUtilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

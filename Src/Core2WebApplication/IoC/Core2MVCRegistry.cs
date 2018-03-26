@@ -2,6 +2,7 @@
 using WebApplicationUtilities.Email;
 using WebApplicationUtilities.Configuration;
 using Core2MVCService.ApplicantService;
+using Core2MVCService.DAL;
 
 namespace Core2WebApplication.IoC
 {
@@ -20,6 +21,7 @@ namespace Core2WebApplication.IoC
             For<IConfigManager>().Use<ConfigManager>();
             For<IProcessApplicants>().Use<ProcessApplicantsDb>();
             For<ISaveApplicant>().Use<SaveApplicantDb>();
+            For<IApplicantRepository>().Use<ApplicantRepository>();
         }
     }
 }

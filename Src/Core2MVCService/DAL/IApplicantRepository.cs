@@ -14,7 +14,5 @@ namespace Core2MVCService.DAL
          List<int> SetApplicantToComplete(int id);
 
          Applicant GetApplicant(int id);
-
-         string ReadEmbeddedResource(string resourceName);
     }
 }
