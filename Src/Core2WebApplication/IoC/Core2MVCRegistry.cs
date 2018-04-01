@@ -1,10 +1,6 @@
 ﻿using StructureMap;
 using Core2MVCService.IoC;
 using WebApplicationUtilities.Email;
-using WebApplicationUtilities.Configuration;
-using Core2MVCService.ApplicantServices;
-using Core2MVCService.DAL;
-using System;
 
 namespace Core2WebApplication.IoC
 {
@@ -21,6 +17,12 @@ namespace Core2WebApplication.IoC
             //register more stuffs here
 
             RegisterCore2Service();
+            RegisterWebApplicationUtilities();
+        }
+
+        private void RegisterWebApplicationUtilities()
+        {
+            For<IEmail>().Use<Email>();
         }
 
         private void RegisterCore2Service()

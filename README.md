@@ -1,9 +1,10 @@
-# .NET Core 2.0 MVC 
+ .NET Core 2.0 MVC 
 
 This example Applicant Website was created with NET Core 2.0 MVC.  
 
 ## Current Configuration:
-* Development and Production Exception Handling
+* [Development and Production Exception Handling](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling)
+  * additional reading [here](https://scottsauber.com/2017/04/03/adding-global-error-handling-and-logging-in-asp-net-core/)
 * [Bower](http://weaintplastic.github.io/web-development-field-guide/Development/Frontend_Development/Setting_up_your_project/Setup_Dependency_Managers/Bower/Initialize_Bower_on_a_new_Project.html) client side management
   * additional reading [here](https://docs.microsoft.com/en-us/aspnet/core/client-side/bower)
 * Bootstrap css/js
@@ -26,7 +27,6 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 
 ## Future System Stories:
 * Migrate old MVC Code 
-  * Add Exception Filters
   * Controllers 
   * Views
   * Missed classes
