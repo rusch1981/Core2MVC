@@ -18,20 +18,21 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * [WebApplicationUtilities](Src/WebApplicationUtilities/ApplicationUtilities.md):
     * IConfigManager/ConfigManager
     * IEmail/Email
-  * Service Project
+  * [Service Project](Src/Core2MVCService/Core2MVCService.md)
     * Business Logic
       * Implemented [IFormFile](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads) for FileUploads
         * additional reading [here](https://dotnetcoretutorials.com/2017/03/12/uploading-files-asp-net-core/)
     * DAL
       * [Dapper](http://dapper-tutorial.net/dapper)
+  * WebContent
+      * Third Party JS and CSS Content via bower
+      * Site specific JS and CSS content 
 
 ## Future System Stories:
 * Migrate old MVC Code 
   * Views 
   * Controllers 
   * Missed classes
-  * add missing jQueryfiles to bower.json
-  * add all thirdparty files to bundleconfig.json
 * Build Pipeline
 * Authentication
 * Migrate Bower to [Yarn](https://bower.io/blog/2017/how-to-migrate-away-from-bower/)
