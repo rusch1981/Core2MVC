@@ -5,7 +5,7 @@ using Core2MVCService.DAL;
 using Core2MVCService.Model;
 using System.IO;
 
-namespace Core2MVCService.ApplicantService
+namespace Core2MVCService.ApplicantServices
 {
     public class ProcessApplicantsDb : IProcessApplicants
     {

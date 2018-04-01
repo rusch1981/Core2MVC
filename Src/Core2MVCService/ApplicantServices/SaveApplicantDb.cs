@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using WebApplicationUtilities.Configuration;
 using System.IO;
 
-namespace Core2MVCService.ApplicantService
+namespace Core2MVCService.ApplicantServices
 {
     public class SaveApplicantDb : ISaveApplicant
     {

@@ -1,8 +1,10 @@
 ﻿using StructureMap;
+using Core2MVCService.IoC;
 using WebApplicationUtilities.Email;
 using WebApplicationUtilities.Configuration;
-using Core2MVCService.ApplicantService;
+using Core2MVCService.ApplicantServices;
 using Core2MVCService.DAL;
+using System;
 
 namespace Core2WebApplication.IoC
 {
@@ -17,11 +19,13 @@ namespace Core2WebApplication.IoC
             });
 
             //register more stuffs here
-            For<IEmail>().Singleton().Use<Email>();
-            For<IConfigManager>().Use<ConfigManager>();
-            For<IProcessApplicants>().Use<ProcessApplicantsDb>();
-            For<ISaveApplicant>().Use<SaveApplicantDb>();
-            For<IApplicantRepository>().Use<ApplicantRepository>();
+
+            RegisterCore2Service();
+        }
+
+        private void RegisterCore2Service()
+        {
+            IncludeRegistry<Core2MVCServiceRegistry>();
         }
     }
 }

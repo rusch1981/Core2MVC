@@ -1,6 +1,6 @@
 ﻿using Core2MVCService.Model;
 
-namespace Core2MVCService.ApplicantService
+namespace Core2MVCService.ApplicantServices
 {
     public interface ISaveApplicant
     {

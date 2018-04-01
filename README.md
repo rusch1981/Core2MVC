@@ -27,8 +27,12 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 ## Future System Stories:
 * Migrate old MVC Code 
   * Add Exception Filters
+  * Controllers 
+  * Views
+  * Missed classes
   * add missing jQueryfiles to bower.json
   * add all thirdparty files to bundleconfig.json
+* Build Pipeline
 * Authentication
 * Migrate Bower to [Yarn](https://bower.io/blog/2017/how-to-migrate-away-from-bower/)
   * additional reading [here](https://blogs.taiga.nl/martijn/2017/08/02/building-the-minimal-asp-net-core-app-with-webpack-and-npm/#step0)
