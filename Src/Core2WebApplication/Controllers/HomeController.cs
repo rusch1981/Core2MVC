@@ -26,6 +26,11 @@ namespace Core2WebApplication.Controllers
             return View();
         }
 
+        public ActionResult Application()
+        {
+            return View();
+        }
+
         public IActionResult Exception()
         {
             throw new Exception();

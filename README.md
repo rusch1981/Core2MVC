@@ -27,14 +27,20 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * WebContent
       * Third Party JS and CSS Content via bower
       * Site specific JS and CSS content 
+  * WebSite
       * Views without Captcha
+      * Controller (in process Applicant [Validation](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation))
 
 ## Future System Stories:
 * Migrate old MVC Code 
-  * Controllers 
+  * Controller 
   * Missed classes
+* Migrate old API Code
 * Production Content Environment Helpers - Layout Page
+* Client side validation with [tag helpers](https://www.davepaquette.com/archive/2015/05/14/mvc6-validation-tag-helpers-deep-dive.aspx)
 * Add Captcha
+* Clean up site.cs
+* Tests for Services 
 * Build Pipeline
 * Authentication
 * Migrate Bower to [Yarn](https://bower.io/blog/2017/how-to-migrate-away-from-bower/)
@@ -44,3 +50,5 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 ## Future Feature Stories:
 * Dynamically responding form application 
   * Utilize AjaxHelper tags to generate partial views.  
+* Optimize images
+* Web Site Face Lift
