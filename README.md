@@ -27,8 +27,8 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 
 ## Future System Stories:
 * Migrate old MVC Code 
+  * Views 
   * Controllers 
-  * Views
   * Missed classes
   * add missing jQueryfiles to bower.json
   * add all thirdparty files to bundleconfig.json

@@ -6,7 +6,7 @@
   ],
   "description": "",
   "main": "Index.cshtml",
-  "license": "MIT",
+  "license": "NADA",
   "private": true,
   "ignore": [
     "**/.*",
@@ -17,6 +17,11 @@
   ],
   "dependencies": {
     "bootstrap": "v4.0.0",
-    "jQuery": "3.3.1"
+    "jQuery": "3.3.1",
+    "jquery-validation": "1.17.0",
+    "jquery-validation-unobtrusive": "v3.2.9",
+    "jquery-ajax-unobtrusive": "v3.2.5",
+    "modernizer": "v2010.07.06dev",
+    "respond": "1.4.2"
   }
 }
