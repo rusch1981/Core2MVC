@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <environmnent include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <script type="text/javascript" src="~/lib/modernizer/modernizr.js"></script>
+        <script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="~/js/site.js"></script>
+        <script type="text/javascript" src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.js"></script>
+        <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script type="text/javascript" src="~/lib/respond/src/respond.js"></script>
+
+    </environmnent>
+
+    @*todo Implement build environments for content
+        <environment exclude="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.min.css" />
+        <script type="text/javascript" src="~/lib/modernizer/modernizr.js"></script>
+        <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="~/js/site.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js"></script>
+        <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/lib/respond/dest/respond.min.js"></script>
+
+    </environment>*@
+
+</head>
+
+<body class="myBackgroundPrimary">
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    @Html.Label("Super Amazing Company Name", new { @class = "navbar-brand" });
+                </div>
+            </div>
+        </div>*@
+    <div class="container body-content panel-body">
+        @RenderBody()
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+</body>
+
+</html>
