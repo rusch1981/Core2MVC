@@ -27,14 +27,14 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * WebContent
       * Third Party JS and CSS Content via bower
       * Site specific JS and CSS content 
-      * Views(in process) - Layout only
+      * Views without Captcha
 
 ## Future System Stories:
 * Migrate old MVC Code 
-  * Views - Razor views
   * Controllers 
   * Missed classes
 * Production Content Environment Helpers - Layout Page
+* Add Captcha
 * Build Pipeline
 * Authentication
 * Migrate Bower to [Yarn](https://bower.io/blog/2017/how-to-migrate-away-from-bower/)

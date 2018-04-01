@@ -5,10 +5,6 @@
     $("#finishButton").hide();
     $("#myFile").on('change', myFileChanged);
     $("#myButton").click(post);
-
-    if ($("#CaptchaError").html() !== "  ") {
-        $("#CaptchaInputText").focus();
-    }
 });
 
 var formData;

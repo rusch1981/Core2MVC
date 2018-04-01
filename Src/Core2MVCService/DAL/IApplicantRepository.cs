@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Core2MVCService.Model;
+using Core2MVCService.Models;
 
 namespace Core2MVCService.DAL
 {

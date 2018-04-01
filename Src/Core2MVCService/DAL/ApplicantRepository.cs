@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 using Dapper;
-using Core2MVCService.Model;
+using Core2MVCService.Models;
 using System.Data.SqlClient;
 using WebApplicationUtilities.Configuration;
 

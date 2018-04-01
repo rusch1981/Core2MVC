@@ -2,7 +2,7 @@
 using WebApplicationUtilities.Configuration;
 using WebApplicationUtilities.Email;
 using Core2MVCService.DAL;
-using Core2MVCService.Model;
+using Core2MVCService.Models;
 using System.IO;
 
 namespace Core2MVCService.ApplicantServices

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 
-namespace Core2MVCService.Model
+namespace Core2MVCService.Models
 {
     public class Applicant
     {

@@ -1,6 +1,24 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-    Layout = "/Views/Shared/_Layout.cshtml";
+﻿
+
+@{
+    ViewData["Title"] = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Hello World!!!</h1>
+
+<div class="text-center">
+    <h2>Terms of Service</h2>
+    <div>
+        <h4>
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+        </h4>
+    </div>
+    <br />
+    <button type="button" class="btn btn-default btn-block btn-lg myBackgroundButton" onclick="location.href='@Url.Action("Application", "Home")'">I Agree</button>
+    <br />
+    <h4><a href="https://www.google.com" class="text-primary">Leave</a></h4>
+
+</div>

@@ -1,4 +1,4 @@
-﻿using Core2MVCService.Model;
+﻿using Core2MVCService.Models;
 using Core2MVCService.DAL;
 using Microsoft.AspNetCore.Hosting;
 using WebApplicationUtilities.Configuration;

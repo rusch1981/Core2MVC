@@ -1,4 +1,4 @@
-﻿using Core2MVCService.Model;
+﻿using Core2MVCService.Models;
 
 namespace Core2MVCService.ApplicantServices
 {
