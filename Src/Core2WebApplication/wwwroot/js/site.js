@@ -36,21 +36,17 @@ function post() {
 
     $.ajax({
         type: "POST",
-        url: "/api/Application/",
+        url: "/api/Upload/",
         contentType: false,
         processData: false,
         data: formData
     });
     $("#finishButton").show();
-
-    //https://www.codeproject.com/Articles/806075/File-Upload-using-jQuery-AJAX-in-ASP-NET-Web-API
-    //send email db best practice background threaded  https://chsakell.com/2014/04/04/sending-emails-in-asp-net-do-it-right/
-    //if all else fails:  https://www.codeproject.com/Articles/634146/Background-Thread-Let-me-count-the-ways
 }
 
 function createApplicant(files) {
     formData = new FormData();
-    formData.append("UploadedImage", files[0]);
+    formData.append("File", files[0]);
     formData.append("Name", $("#Name").val());
     formData.append("Age", $("#Age").val());
     formData.append("Email", $("#Email").val());

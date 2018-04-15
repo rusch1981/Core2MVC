@@ -2,7 +2,14 @@
 
 This example Applicant Website was created with NET Core 2.0 MVC.  
 
-## Current Configuration:
+
+## BackLog
+
+### Current Story:
+* Local QA testing 
+  * merge
+
+### Completed Stories:
 * [Development and Production Exception Handling](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling)
   * additional reading [here](https://scottsauber.com/2017/04/03/adding-global-error-handling-and-logging-in-asp-net-core/)
 * [Bower](http://weaintplastic.github.io/web-development-field-guide/Development/Frontend_Development/Setting_up_your_project/Setup_Dependency_Managers/Bower/Initialize_Bower_on_a_new_Project.html) client side management
@@ -29,13 +36,17 @@ This example Applicant Website was created with NET Core 2.0 MVC.
       * Site specific JS and CSS content 
   * WebSite
       * Views without Captcha
-      * Controller (in process Applicant [Validation](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation))
+      * Controller 
+  * WebApi
+    * Controller
+      * [ModelBinding](https://andrewlock.net/model-binding-json-posts-in-asp-net-core/)
 
-## Future System Stories:
-* Migrate old MVC Code 
-  * Controller 
-  * Missed classes
-* Migrate old API Code
+### Defect Stories
+* Shared Background does not scale well
+  * Zoom out shows white space
+* "Complete Application" button on the Upload View is not hidden 
+
+### System Stories:
 * Production Content Environment Helpers - Layout Page
 * Client side validation with [tag helpers](https://www.davepaquette.com/archive/2015/05/14/mvc6-validation-tag-helpers-deep-dive.aspx)
 * Add Captcha
@@ -47,8 +58,11 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * additional reading [here](https://blogs.taiga.nl/martijn/2017/08/02/building-the-minimal-asp-net-core-app-with-webpack-and-npm/#step0)
 
 
-## Future Feature Stories:
+### Feature Stories:
 * Dynamically responding form application 
   * Utilize AjaxHelper tags to generate partial views.  
 * Optimize images
+* Optimize [FileUpload](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-2.1)
+
 * Web Site Face Lift
+  * Defect Stories

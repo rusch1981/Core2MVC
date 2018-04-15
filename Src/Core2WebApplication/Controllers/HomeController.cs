@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebApplicationUtilities.Email;
+using Core2MVCService.Models;
 
 namespace Core2WebApplication.Controllers
 {
@@ -27,6 +25,34 @@ namespace Core2WebApplication.Controllers
         }
 
         public ActionResult Application()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Application(Applicant applicant)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(applicant);
+            }
+            return View("Upload", applicant);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Upload(Applicant applicant)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction("Application");
+            }
+
+            return View(applicant);
+        }
+
+        public ActionResult Successful()
         {
             return View();
         }
