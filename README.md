@@ -40,10 +40,9 @@ This example Applicant Website was created with NET Core 2.0 MVC.
   * WebApi
     * Controller
       * [ModelBinding](https://andrewlock.net/model-binding-json-posts-in-asp-net-core/)
-
-### Defect Stories
 * Shared Background does not scale well
   * Zoom out shows white space
+### Defect Stories
 * "Complete Application" button on the Upload View is not hidden 
 
 ### System Stories:

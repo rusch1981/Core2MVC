@@ -26,6 +26,9 @@ textarea {
 .myBackgroundPrimary {
     background-image: url("../images/Skyclouds.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-color: #0a1b2b;
 }
 /*todo fix all these duplicate selectors.  OMG*/
 .myBackgroundSecondary {
