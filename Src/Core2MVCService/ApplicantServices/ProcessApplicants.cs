@@ -7,20 +7,20 @@ using System.IO;
 
 namespace Core2MVCService.ApplicantServices
 {
-    public class ProcessApplicantsDb : IProcessApplicants
+    public class ProcessApplicants : IProcessApplicants
     {
         private readonly string _fileLocation;
         private IEmail _emailemail;
         private IApplicantRepository _applicantRepository;
 
-        public ProcessApplicantsDb(IHostingEnvironment environment, IConfigManager configManager, IApplicantRepository applicantRepository, IEmail email)
+        public ProcessApplicants(IHostingEnvironment environment, IConfigManager configManager, IApplicantRepository applicantRepository, IEmail email)
         {
             _fileLocation = environment.ContentRootPath + configManager.GetFromSection<string>("UploadPath");
             _applicantRepository = applicantRepository;
             _emailemail = email;
         }
 
-        public void Process()
+        public void ProcessAll()
         {
             var ids = _applicantRepository.GetIncompleteApplicants();
 

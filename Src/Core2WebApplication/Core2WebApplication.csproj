@@ -5,6 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Uploads\UploadFiles\blank.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Uploads\UploadFiles\blank.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="2.6.362" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="StructureMap.Microsoft.DependencyInjection" Version="1.4.0" />

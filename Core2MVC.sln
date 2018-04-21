@@ -5,13 +5,11 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core2WebApplication", "Src\Core2WebApplication\Core2WebApplication.csproj", "{19CE8000-F804-4E17-88A7-911EEB3DE506}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core2MVCTemplate", "Src\Core2MVCTemplate\Core2MVCTemplate.csproj", "{433EC0EB-5589-4AB4-AFC9-19996D2E0D04}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationUtilities", "Src\WebApplicationUtilities\WebApplicationUtilities.csproj", "{8F3434E5-880B-4288-BD1B-993DF7BE849A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationUtilitiesTests", "Test\WebApplicationUtilitiesTests\WebApplicationUtilitiesTests.csproj", "{DF3E1380-AB53-4C0B-9682-29332F43611C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2MVCService", "Src\Core2MVCService\Core2MVCService.csproj", "{8F875D38-3285-4656-95C5-558200BFF653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core2MVCService", "Src\Core2MVCService\Core2MVCService.csproj", "{8F875D38-3285-4656-95C5-558200BFF653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{19CE8000-F804-4E17-88A7-911EEB3DE506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CE8000-F804-4E17-88A7-911EEB3DE506}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CE8000-F804-4E17-88A7-911EEB3DE506}.Release|Any CPU.Build.0 = Release|Any CPU
-		{433EC0EB-5589-4AB4-AFC9-19996D2E0D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{433EC0EB-5589-4AB4-AFC9-19996D2E0D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{433EC0EB-5589-4AB4-AFC9-19996D2E0D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{433EC0EB-5589-4AB4-AFC9-19996D2E0D04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F3434E5-880B-4288-BD1B-993DF7BE849A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F3434E5-880B-4288-BD1B-993DF7BE849A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3434E5-880B-4288-BD1B-993DF7BE849A}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -4,6 +4,6 @@ namespace Core2MVCService.ApplicantServices
 {
     public interface IProcessApplicants
     {
-        void Process();
+        void ProcessAll();
     }
 }

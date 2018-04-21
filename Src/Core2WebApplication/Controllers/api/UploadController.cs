@@ -27,7 +27,7 @@ namespace Core2WebApplication.Controllers.api
             try
             {
                 _saveApplicant.Save(applicant);
-                _processApplicant.Process();
+                _processApplicant.ProcessAll();
             }
             catch (Exception e)
             {

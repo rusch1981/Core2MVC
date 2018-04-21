@@ -14,8 +14,8 @@ namespace Core2MVCService.IoC
             //register more stuffs here
             For<IEmail>().Singleton().Use<Email>();
             For<IConfigManager>().Use<ConfigManager>();
-            For<IProcessApplicants>().Use<ProcessApplicantsDb>();
-            For<ISaveApplicant>().Use<SaveApplicantDb>();
+            For<IProcessApplicants>().Use<ProcessApplicants>();
+            For<ISaveApplicant>().Use<SaveApplicant>();
             For<IApplicantRepository>().Use<ApplicantRepository>();
         }
     }
