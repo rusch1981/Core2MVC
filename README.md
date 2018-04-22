@@ -43,6 +43,7 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 * Shared Background does not scale well
   * Zoom out shows white space
 * "Complete Application" button on the Upload View is not hidden 
+* Removed Bower 
 ### Defect Stories:
 empty
 
@@ -53,8 +54,7 @@ empty
 * Tests for Services 
 * Build Pipeline
 * Authentication
-* Migrate Bower to [Yarn](https://bower.io/blog/2017/how-to-migrate-away-from-bower/)
-  * additional reading [here](https://blogs.taiga.nl/martijn/2017/08/02/building-the-minimal-asp-net-core-app-with-webpack-and-npm/#step0)
+* [NPM/Webpack](https://blogs.taiga.nl/martijn/2017/11/24/building-and-asp-net-core-mvc-app-with-npm-and-webpack-asp-net-core-2-0-edition/)
 * Save files directly to DB
 
 ### Feature Stories:
