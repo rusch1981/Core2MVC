@@ -42,20 +42,20 @@ This example Applicant Website was created with NET Core 2.0 MVC.
       * [ModelBinding](https://andrewlock.net/model-binding-json-posts-in-asp-net-core/)
 * Shared Background does not scale well
   * Zoom out shows white space
-### Defect Stories
 * "Complete Application" button on the Upload View is not hidden 
+### Defect Stories:
+empty
 
 ### System Stories:
 * Production Content Environment Helpers - Layout Page
 * Client side validation with [tag helpers](https://www.davepaquette.com/archive/2015/05/14/mvc6-validation-tag-helpers-deep-dive.aspx)
 * Add Captcha
-* Clean up site.cs
 * Tests for Services 
 * Build Pipeline
 * Authentication
 * Migrate Bower to [Yarn](https://bower.io/blog/2017/how-to-migrate-away-from-bower/)
   * additional reading [here](https://blogs.taiga.nl/martijn/2017/08/02/building-the-minimal-asp-net-core-app-with-webpack-and-npm/#step0)
-
+* Save files directly to DB
 
 ### Feature Stories:
 * Dynamically responding form application 
@@ -64,4 +64,3 @@ This example Applicant Website was created with NET Core 2.0 MVC.
 * Optimize [FileUpload](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-2.1)
 
 * Web Site Face Lift
-  * Defect Stories

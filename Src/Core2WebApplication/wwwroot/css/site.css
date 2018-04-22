@@ -30,50 +30,8 @@ textarea {
     background-attachment:fixed;
     background-color: #0a1b2b;
 }
-/*todo fix all these duplicate selectors.  OMG*/
+
 .myBackgroundSecondary {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#Name {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#Email {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#Age {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#AboutYou {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#Experience {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#SkillsTalents {
-    background-color: lightgray;
-    opacity: .5;
-    border: 1px solid;
-}
-
-#CaptchaInputText {
     background-color: lightgray;
     opacity: .5;
     border: 1px solid;
